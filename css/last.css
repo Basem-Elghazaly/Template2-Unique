@@ -1,0 +1,67 @@
+
+.last {
+  margin-top: -40px;
+}
+
+.last .last-content .image {
+  width: 30%;
+}
+
+.last .last-content .image img {
+  width: 100%;
+  height: 80%;
+}
+
+.last .last-content .discount-section {
+  height: 460px;
+}
+
+.last .last-content .discount-top {
+  position: relative;
+}
+
+.last .last-content .date {
+  width: 50px;
+  display: inline-block;
+  margin: 0 0 0 -70px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.last .last-content .date :nth-child(1) {
+  font-size: 36px;
+}
+.last .last-content .date :nth-child(2) {
+  font-size: 16px;
+}
+.last .last-content .discount-top h4 {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+.last .last-content .discount-top h4:hover {
+  color: var(--main-color);
+}
+
+.last .last-content .lorem {
+  width: 90%;
+}
+
+.brands {
+  margin: -40px 0 50px;
+}
+
+.brands .image img {
+  filter: brightness(1.5);
+  -webkit-filter: brightness(1.5);
+  transition: 0.3s filter;
+  -webkit-transition: 0.3s filter;
+  -moz-transition: 0.3s filter;
+  -ms-transition: 0.3s filter;
+  -o-transition: 0.3s filter;
+}
+.brands .image img:hover {
+  filter: brightness(0);
+  -webkit-filter: brightness(0);
+}
+/* Last */

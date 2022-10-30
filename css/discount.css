@@ -1,0 +1,179 @@
+
+/* Discount */
+.discount {
+  margin-top: 40px;
+}
+
+.discount .discount-content {
+  display: flex;
+  gap: 2%;
+}
+
+.discount .discount-section.first {
+  position: relative;
+  flex: 2;
+  padding: 50px 40px 0 50px;
+  background-color: rgb(251, 244, 236);
+  text-transform: capitalize;
+}
+.discount .first i {
+  position: absolute;
+  top: 72px;
+  left: 30px;
+  font-size: 60px;
+  color: var(--main-color);
+}
+
+.discount .discount-top {
+  margin: 30px 0 40px 50px;
+}
+
+.discount .discount-section.first h4 {
+  font-size: 18px;
+}
+
+.discount .discount-section.first p {
+  color: var(--grey-color);
+}
+
+.discount .discount-section.first .lorem {
+  margin-left: -20px;
+  color: var(--grey-color);
+  line-height: 1.8;
+  letter-spacing: 0.4px;
+}
+
+.discount .discount-section.first .dashes {
+  position: absolute;
+  right: 30px;
+  bottom: 80px;
+  z-index: 1;
+}
+.discount .discount-section.first .dashes div {
+  width: 50px;
+  height: 2px;
+  background-color: var(--black333);
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.discount .discount-section.second,
+.discount .discount-section.third {
+  flex: 1;
+  background-position: bottom;
+  background-size: cover;
+  padding: 20px 0 0 20px;
+  font-size: 22px;
+  text-transform: capitalize;
+  height: 400px;
+  transition: 0.5s filter;
+  -webkit-transition: 0.5s filter;
+  -moz-transition: 0.5s filter;
+  -ms-transition: 0.5s filter;
+  -o-transition: 0.5s filter;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.discount .discount-section.second:hover,
+.discount .discount-section.third:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.discount .discount-section.second {
+  background-image: url(../images/cms-banner-1.jpg);
+}
+
+.discount .discount-section.third {
+  flex: 1;
+  background-image: url(../images/cms-banner-2.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* About Discount  */
+.about-discount {
+  position: relative;
+  padding: 80px;
+  border-bottom: 1px solid var(--grey-eee);
+}
+
+.about-discount .about-item {
+  position: relative;
+  text-transform: capitalize;
+}
+
+.about-discount .about-item i {
+  color: var(--grey-color);
+  font-size: 40px;
+  position: absolute;
+  left: -55px;
+}
+
+.about-discount .about-item h4 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.about-discount .about-item p {
+  font-size: 14px;
+  color: var(--grey-color);
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  height: 45px;
+  background-color: var(--grey-eee);
+  right: -60px;
+  top: 0;
+}
+
+.about-discount .about-item:hover i {
+  color: var(--main-color);
+}
+/* About Discount  */
+
+.parent {
+  padding: 500px;
+  position: relative;
+}
+
+.face {
+  position: absolute;
+  
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+  font-size: 20px;
+  left: 50%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+}
+
+.front {
+  background-color: #f00;
+}
+
+.back {
+  background-color: #000;
+  z-index: -1;
+}
+
+.face:hover {
+  transform: rotatey(180deg);
+  -webkit-transform: rotatey(180deg);
+  -moz-transform: rotatey(180deg);
+  -ms-transform: rotatey(180deg);
+  -o-transform: rotatey(180deg);
+}
+
+

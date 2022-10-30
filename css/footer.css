@@ -1,0 +1,141 @@
+
+/* footer */
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-content {
+  position: relative;
+  display: flex;
+  gap: 10%;
+}
+
+footer .part-one {
+  width: 550px;
+}
+
+footer .part {
+  color: var(--grey-color);
+}
+
+.part-one .foot-logo {
+  margin-bottom: 40px;
+}
+.part-one .foot-logo + div {
+  line-height: 1.8;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.part-one .icons {
+  display: flex;
+}
+.part-one .icons div {
+  margin-right: 15px;
+  margin-bottom: 60px;
+}
+
+footer .part h4 {
+  color: var(--white-color);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+footer .poweredby {
+  position: relative;
+  color: var(--grey-color);
+  top: 30px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+footer .poweredby a {
+  text-decoration: underline;
+  color: var(--grey-color);
+}
+
+footer .poweredby::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 118%;
+  height: 1px;
+  left: -150px;
+  top: -35px;
+  background-color: #414141;
+}
+
+footer .poweredby-icon div {
+  width: 60px;
+}
+footer .poweredby-icon div img {
+  width: 100%;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+footer .poweredby-icon div img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.poweredby-icon {
+  display: flex;
+}
+.poweredby-icon .brand-image {
+  margin-right: 20px;
+}
+
+.part h4 {
+  margin-bottom: 30px;
+}
+
+.part p {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.part-four h4 {
+  margin-bottom: 70px;
+}
+
+.part-four input {
+  width: 215%;
+  background-color: rgb(0, 0, 0);
+  caret-color: var(--grey-color);
+  margin-bottom: 50px;
+  color: var(--white-color);
+}
+.part-four input:focus {
+  outline: none;
+}
+.part-four {
+  position: relative;
+}
+.part-four .links {
+  position: absolute;
+  width: 300px;
+}
+.part-four .links i {
+  margin-right: 20px;
+}
+
+.part-four .links i:hover,
+.part-five i:hover {
+  color: var(--white-color);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.part-five i {
+  position: absolute;
+  z-index: 1;
+  right: -10px;
+  top: 27%;
+  font-size: 30px;
+}
+
+/* footer */

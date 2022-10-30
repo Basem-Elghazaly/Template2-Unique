@@ -1,0 +1,111 @@
+/* Featured */
+.featured .section-header {
+  margin-bottom: 60px;
+}
+
+.featured-main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-transform: capitalize;
+  color: var(--grey-color);
+}
+
+.featured-main h4 a:hover {
+  color: var(--main-color);
+}
+/* Featured */
+
+/* Featured Content  */
+.featured-content {
+  flex-wrap: wrap;
+}
+
+.overlay {
+  position: absolute;
+}
+
+.featured-content .featured-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.featured-item .overlay {
+  position: absolute;
+  top: 0;
+  transform: scalex(0);
+  -webkit-transform: scalex(0);
+  -moz-transform: scalex(0);
+  -ms-transform: scalex(0);
+  -o-transform: scalex(0);
+  transition: 0.5s transform;
+  -webkit-transition: 0.5s transform;
+  -moz-transition: 0.5s transform;
+  -ms-transition: 0.5s transform;
+  -o-transition: 0.5s transform;
+}
+.featured-item:hover .overlay {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+}
+
+.featured-item .overlay .overlay-icons {
+  position: absolute;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.featured-item .overlay .overlay-icons i {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: var(--white-color);
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+}
+.featured-item .overlay .overlay-icons i:hover {
+  background-color: var(--main-color);
+}
+
+.featured-content .featured-item:hover .disc-item div {
+  color: var(--main-color);
+}
+
+.featured-content .featured-item .stars {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #ccc;
+}
+.featured-content .featured-item .stars i:hover {
+  color: #ffb700;
+}
+
+.featured-content .featured-item .disc-item div {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.featured-content .featured-item .disc-item h4 {
+  display: inline-block;
+  margin-right: 5px;
+}
+.featured-content .featured-item .disc-item del {
+  font-size: 14px;
+}
+
+.featured-content .featured-item .disc-item del {
+  color: var(--grey-color);
+}
+/* Featured Content  */
+
